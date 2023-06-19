@@ -19,6 +19,13 @@ class PlaceWidget extends StatelessWidget {
     required this.comments,
   });
 
+  bool isLiked = false;
+
+  void toggleLike() {
+    setState(){
+    isLiked = !isLiked;}
+  }
+
   @override
   Widget build(BuildContext context) {
     List<Widget> commentWidgets = [
@@ -70,29 +77,43 @@ class PlaceWidget extends StatelessWidget {
                 Icon(Icons.star, color: Colors.yellow),
                 SizedBox(width: 4),
                 Text(starRating.toString()),
-                SizedBox(width: 30,),
+                SizedBox(
+                  width: 13,
+                ),
                 ElevatedButton(
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => scrollablePlacePage),
+                      MaterialPageRoute(
+                          builder: (context) => scrollablePlacePage),
                     );
                   },
                   child: Text('Rotayı Gör'),
                 ),
-                SizedBox(width: 30,),
+                SizedBox(
+                  width: 5,
+                ),
                 ElevatedButton(
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => ScrollableWidgetPage(
-                        widgets: commentWidgets,
-                      )), // Replace MapWidget with your actual map widget
-                    );                        },
+                      MaterialPageRoute(
+                          builder: (context) => ScrollableWidgetPage(
+                                widgets: commentWidgets,
+                              )), // Replace MapWidget with your actual map widget
+                    );
+                  },
                   child: Text('Değerlendirmeler'),
                   style: ElevatedButton.styleFrom(
                     primary: Colors.amber, // Set the desired button color
                   ),
+                ),
+                IconButton(
+                  icon: Icon(
+                    isLiked ? Icons.favorite : Icons.favorite_border,
+                    color: isLiked ? Colors.red : Colors.grey,
+                  ),
+                  onPressed: toggleLike,
                 ),
               ],
             ),

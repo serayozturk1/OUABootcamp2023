@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'User.dart';
 import 'main.dart';
 
 class ProfilePage1 extends StatelessWidget {
@@ -19,7 +19,7 @@ class ProfilePage1 extends StatelessWidget {
               child: Column(
                 children: [
                   Text(
-                    MyApp.userInfo,
+                    User.userInfo,
                     style: Theme.of(context)
                         .textTheme
                         .headline6

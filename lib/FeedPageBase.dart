@@ -7,6 +7,8 @@ import 'package:travelapp/ScrollablePlacePage.dart';
 import 'package:travelapp/PlaceWidget.dart';
 import 'package:travelapp/CommentWidget.dart';
 import 'main.dart';
+import 'RoutesAndPlaces.dart';
+import 'SearchPage.dart';
 
 class GoogleBottomBar extends StatefulWidget {
   const GoogleBottomBar({Key? key}) : super(key: key);
@@ -21,7 +23,7 @@ class _GoogleBottomBarState extends State<GoogleBottomBar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Travelopia')),
+      appBar: AppBar(title: const Text('Traveltopia')),
       body: Center(
         child: _buildScreen(),
       ),
@@ -57,13 +59,13 @@ class _GoogleBottomBarState extends State<GoogleBottomBar> {
   Widget _buildHomeScreen() {
     // Replace this with your home screen widget
     return ScrollableWidgetPage(
-      widgets: MyApp.routes,
+      widgets: RoutesAndPlaces.routes,
     );
   }
 
   Widget _buildLikesScreen() {
     // Replace this with your likes screen widget
-    List<Widget> routes_random = MyApp.routes.toList();
+    List<Widget> routes_random = RoutesAndPlaces.routes.toList();
     routes_random.shuffle();
     return ScrollableWidgetPage(
       widgets: routes_random,
@@ -72,7 +74,7 @@ class _GoogleBottomBarState extends State<GoogleBottomBar> {
 
   Widget _buildSearchScreen() {
     // Replace this with your search screen widget
-    return Center(child: Text('Search Screen'));
+    return SearchPage();
   }
 
   Widget _buildProfileScreen() {
@@ -88,18 +90,18 @@ final _navBarItems = [
     selectedColor: Colors.purple,
   ),
   SalomonBottomBarItem(
-    icon: const Icon(Icons.favorite_border),
+    icon: const Icon(Icons.feed),
     title: const Text("Keşfet"),
     selectedColor: Colors.pink,
   ),
   SalomonBottomBarItem(
     icon: const Icon(Icons.search),
-    title: const Text("Search"),
+    title: const Text("Ara"),
     selectedColor: Colors.orange,
   ),
   SalomonBottomBarItem(
     icon: const Icon(Icons.person),
-    title: const Text("Profile"),
+    title: const Text("Profil"),
     selectedColor: Colors.teal,
   ),
 ];

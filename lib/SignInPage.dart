@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'FeedPageBase.dart';
 import 'main.dart';
+import 'User.dart';
 
 class SignInPage2 extends StatelessWidget {
   const SignInPage2({Key? key}) : super(key: key);
@@ -78,10 +79,7 @@ class __FormContentState extends State<_FormContent> {
   String _email = '';
   String _password = '';
 
-  Map<String, String> emailpasswords = {
-    'berk@gmail.com': "berk12345",
-    'seray@gmail.com': "seray12345",
-  };
+  Map<String, String> emailpasswords = User.emailpasswords;
 
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
 
@@ -191,12 +189,7 @@ class __FormContentState extends State<_FormContent> {
                 onPressed: () {
                   if (_formKey.currentState?.validate() ?? false) {
                     if(emailpasswords.containsKey(_email) && emailpasswords[_email]==_password){
-                      if(_email=="berk@gmail.com"){
-                        MyApp.userInfo = "berk";
-                      }
-                      else if(_email=="seray@gmail.com"){
-                        MyApp.userInfo = "seray";
-                      }
+                      User.userInfo = User.emailandusernames[_email ?? ''] ?? '';
                       Navigator.push(
                         context,
                         MaterialPageRoute(builder: (context) => const GoogleBottomBar()),
