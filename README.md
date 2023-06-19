@@ -15,7 +15,10 @@ Traveltopia
 https://miro.com/app/board/uXjVM9x_Kiw=/?share_link_id=643121635653
 
 # Ürün Açıklaması
-Traveltopia kullanıcılarını sosyalleşmeye ve dışarıda vakit geçirmeye teşvik eder. Herkesin gün içinde gittiği restorant, kafe, park, segi, müze vb. yerleri "rota" olarak paylaşabildiği ve diğer kullanıcılarla beğeni, kaydetme ve yorumlarla etkileşim içinde olduğu bir platform sunar. Böylece kullanıcılar arkadaşları, partnerleri veya aileleri ile vakit geçirmek istediklerinde "Acaba ne yapsak, nereye gitsek?" gibi sorularla meşgul olmazlar. Kullanıcılarını günü planlamaktan kurtararak zaman tasarrufu sağlayan Traveltopia aynı zamanda kullanıcılara yakın çevrelerindeki restoran, kafe, park vb. alanları gösterir.
+ Traveltopia kullanıcılarını sosyalleşmeye ve dışarıda vakit geçirmeye teşvik eder. Herkesin gün içinde gittiği restorant, kafe, park, segi, müze vb. yerleri "rota" olarak paylaşabildiği ve diğer kullanıcılarla beğeni, kaydetme ve yorumlarla etkileşim içinde olduğu bir platform sunar. Böylece kullanıcılar arkadaşları, partnerleri veya aileleri ile vakit geçirmek istediklerinde "Acaba ne yapsak, nereye gitsek?" gibi sorularla meşgul olmazlar. Kullanıcılarını günü planlamaktan kurtararak zaman tasarrufu sağlayan Traveltopia aynı zamanda kullanıcılara tekil olarak zaman geçirebilecekleri mekanları önerir.
+
+ - Birincil fonksiyon: Kullanıcıların "rota"larını paylaşmasını sağlayan ve diğer kullnıcıların rotalarını görerek gününü planlamasına yardım eden bir platform
+ - İkincil fonksiyon: Kullanıcılara kategorilere ayrılmış şekilde vakit geçirebilecekleri mekanları bir arada sunan bir uygulama
 # Hedef Kitle
 - İstanbul'da yaşayanlar
 - Özellikle genç ve genç yetişkin olmakla birlikte tüm yaş grupları
