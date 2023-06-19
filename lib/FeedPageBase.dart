@@ -83,7 +83,8 @@ class GoogleBottomBarState extends State<GoogleBottomBar> {
 
   Widget buildProfileScreen() {
     // Replace this with your profile screen widget
-    return NamesScreen();
+    //return NamesScreen();
+    return ProfilePage1();
   }
 }
 
