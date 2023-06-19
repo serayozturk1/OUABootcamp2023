@@ -26,5 +26,6 @@ Traveltopia
 ![image](https://github.com/serayozturk1/OUABootcamp2023/assets/129687736/b15720e5-f09a-4467-8e3f-0ebac5745898)
 ![image](https://github.com/serayozturk1/OUABootcamp2023/assets/129687736/92860ea3-795a-4921-bd25-b39af28395fb)
 
-- Sprint Review: Fikir geliştirdik ve fonksiyonlara tam karar verdik. Sonrasında kullanıcı temel sayfalarını oluşturduk, bazılarını da kodladık. Firebase hakkında bilgi edindik ve bağlamaya hazır durumdayız.
-- Sprint Retrospective: Fikir geliştirme sürecinde çok zaman kaybettik, bu yüzden toplantıları artık önceden detaylı olarak planlamaya karar verdik. Ayrıca herkesin biraz daha aktif olabileceğini ve daha fazla görev alması gerektiğini konuştuk.
+# Sprint Notları
+- Sprint Review: Fikir geliştirdik ve fonksiyonlara tam karar verdik. Sonrasında kullanıcı temel sayfalarını oluşturduk (figma üzerinden taslak bir uı hazırladık), giriş ve profil sayfalarını da kodladık. Firebase hakkında bilgi edindik ve bağlamaya hazır durumdayız.
+- Sprint Retrospective: Fikir geliştirme sürecinde çok zaman kaybettik, bu yüzden toplantıları artık önceden detaylı olarak planlamaya karar verdik. Ayrıca herkesin biraz daha aktif olabileceğini ve daha fazla görev alması gerektiğini konuştuk. Ayrıca Daily Scrumlarda düzenli not tutmaya karar verdik.
