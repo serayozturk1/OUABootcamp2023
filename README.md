@@ -6,7 +6,7 @@ Takım Flutter 48
 - Sena Kuşçuoğlu: Product Owner
 - Berk Emre Mert: Developer
 - Kevser Karahancı: Developer
-- Buğra : Developer
+- Buğra Görmüş: Developer
   
 # Ürün İsmi
 Traveltopia
@@ -15,7 +15,7 @@ Traveltopia
 https://miro.com/app/board/uXjVM9x_Kiw=/?share_link_id=643121635653
 
 # Ürün Açıklaması
-# Ürün Özellikleri
+Traveltopia kullanıcılarını sosyalleşmeye ve dışarıda vakit geçirmeye teşvik eder. Herkesin gün içinde gittiği restorant, kafe, park, segi, müze vb. yerleri "rota" olarak paylaşabildiği ve diğer kullanıcılarla beğeni, kaydetme ve yorumlarla etkileşim içinde olduğu bir platform sunar. Böylece kullanıcılar arkadaşları, partnerleri veya aileleri ile vakit geçirmek istediklerinde "Acaba ne yapsak, nereye gitsek?" gibi sorularla meşgul olmazlar. Kullanıcılarını günü planlamaktan kurtararak zaman tasarrufu sağlayan Traveltopia aynı zamanda kullanıcılara yakın çevrelerindeki restoran, kafe, park vb. alanları gösterir.
 # Hedef Kitle
 - İstanbul'da yaşayanlar
 - Özellikle genç ve genç yetişkin olmakla birlikte tüm yaş grupları
