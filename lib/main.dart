@@ -7,13 +7,6 @@ import 'ScrollablePlacePage.dart';
 import 'DescriptionWidget.dart';
 import 'FeedPageBase.dart';
 
-"""
-
-"""
-
-
-
-
 Future<void> main() async {
   runApp(const MyApp());
 }

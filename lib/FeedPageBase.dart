@@ -9,6 +9,7 @@ import 'package:travelapp/CommentWidget.dart';
 import 'main.dart';
 import 'RoutesAndPlaces.dart';
 import 'SearchPage.dart';
+import 'try.dart';
 
 class GoogleBottomBar extends StatefulWidget {
   final int? optionalParam;
@@ -82,7 +83,7 @@ class GoogleBottomBarState extends State<GoogleBottomBar> {
 
   Widget buildProfileScreen() {
     // Replace this with your profile screen widget
-    return ProfilePage1();
+    return NamesScreen();
   }
 }
 
