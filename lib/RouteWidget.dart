@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:travelapp/ScrollablePlacePage.dart';
 import 'ScrollableWidgetPage.dart';
+import 'ProfilePage.dart';
+import 'FeedPageBase.dart';
 
 class PlaceWidget extends StatelessWidget {
   final String name;
@@ -22,8 +24,7 @@ class PlaceWidget extends StatelessWidget {
   bool isLiked = false;
 
   void toggleLike() {
-    setState(){
-    isLiked = !isLiked;}
+    isLiked = !isLiked;
   }
 
   @override
@@ -113,7 +114,14 @@ class PlaceWidget extends StatelessWidget {
                     isLiked ? Icons.favorite : Icons.favorite_border,
                     color: isLiked ? Colors.red : Colors.grey,
                   ),
-                  onPressed: toggleLike,
+                  onPressed: () {
+                    toggleLike;
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => GoogleBottomBar()),
+                    );
+                  },
                 ),
               ],
             ),

@@ -9,7 +9,9 @@ class User{
   static Map<String, String> emailandusernames = {
     'berk@gmail.com' : 'berk',
     'seray@gmail.com' : 'seray',
-};
+  };
+
+  //PROFILE PICTURE
 
   static Map<String, List<int>> likedRoutes = {
     'berk' : [],

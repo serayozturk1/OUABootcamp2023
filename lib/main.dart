@@ -5,6 +5,14 @@ import 'RouteWidget.dart';
 import 'CommentWidget.dart';
 import 'ScrollablePlacePage.dart';
 import 'DescriptionWidget.dart';
+import 'FeedPageBase.dart';
+
+"""
+
+"""
+
+
+
 
 Future<void> main() async {
   runApp(const MyApp());
@@ -20,7 +28,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const OnboardingPage1(),
+      //home: const OnboardingPage1(),
+      home: const GoogleBottomBar(),
     );
   }
 }

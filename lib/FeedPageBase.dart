@@ -11,13 +11,16 @@ import 'RoutesAndPlaces.dart';
 import 'SearchPage.dart';
 
 class GoogleBottomBar extends StatefulWidget {
-  const GoogleBottomBar({Key? key}) : super(key: key);
+  final int? optionalParam;
+
+  const GoogleBottomBar({Key? key, this.optionalParam}) : super(key: key);
 
   @override
-  State<GoogleBottomBar> createState() => _GoogleBottomBarState();
+  State<GoogleBottomBar> createState() => GoogleBottomBarState();
 }
 
-class _GoogleBottomBarState extends State<GoogleBottomBar> {
+
+class GoogleBottomBarState extends State<GoogleBottomBar> {
   int _selectedIndex = 0;
 
   @override
@@ -49,7 +52,7 @@ class _GoogleBottomBarState extends State<GoogleBottomBar> {
     } else if (_selectedIndex == 2) {
       return _buildSearchScreen();
     } else if (_selectedIndex == 3) {
-      return _buildProfileScreen();
+      return buildProfileScreen();
     } else {
       // Handle other cases or return a default screen
       return Container();
@@ -77,7 +80,7 @@ class _GoogleBottomBarState extends State<GoogleBottomBar> {
     return SearchPage();
   }
 
-  Widget _buildProfileScreen() {
+  Widget buildProfileScreen() {
     // Replace this with your profile screen widget
     return ProfilePage1();
   }
