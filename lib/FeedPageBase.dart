@@ -10,6 +10,8 @@ import 'main.dart';
 import 'RoutesAndPlaces.dart';
 import 'SearchPage.dart';
 import 'try.dart';
+import 'ProfilePageNew.dart';
+import 'WelcomingPage.dart';
 
 class GoogleBottomBar extends StatefulWidget {
   final int? optionalParam;
@@ -27,7 +29,9 @@ class GoogleBottomBarState extends State<GoogleBottomBar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Traveltopia')),
+      appBar: AppBar(title:
+        const Text('Traveltopia'),
+        backgroundColor: Colors.teal,),
       body: Center(
         child: _buildScreen(),
       ),
@@ -62,9 +66,7 @@ class GoogleBottomBarState extends State<GoogleBottomBar> {
 
   Widget _buildHomeScreen() {
     // Replace this with your home screen widget
-    return ScrollableWidgetPage(
-      widgets: RoutesAndPlaces.routes,
-    );
+    return WelcomePage();
   }
 
   Widget _buildLikesScreen() {
@@ -84,7 +86,7 @@ class GoogleBottomBarState extends State<GoogleBottomBar> {
   Widget buildProfileScreen() {
     // Replace this with your profile screen widget
     //return NamesScreen();
-    return ProfilePage1();
+    return ProfilePage();
   }
 }
 
