@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travelapp/SignInPage.dart';
 import 'ScrollableWidgetPage.dart';
 import 'User.dart';
 import 'RoutesAndPlaces.dart';
@@ -24,10 +25,18 @@ class ProfilePage extends StatelessWidget {
             User.userInfo == '' ? 'username' : User.userInfo,
             style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
           ),
-          const SizedBox(height: 16),
-          Text(
-            "userInfo",
-            style: TextStyle(fontSize: 16),
+          FloatingActionButton.extended(
+            label: Text('Çıkış Yap'), // <-- Text
+            backgroundColor: Colors.blue,
+            icon: Icon( // <-- Icon
+              Icons.login_outlined,
+              size: 14.0,
+            ),
+            onPressed: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const SignInPage2()));
+            },
           ),
           const SizedBox(height: 16),
           Divider(

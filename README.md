@@ -1,5 +1,5 @@
 # Takım İsmi
-Takım Flutter 48
+Traveloopia
 # Takımımız
 - Seray Öztürk: Scrum master
 - Sena Kuşçuoğlu: Product Owner

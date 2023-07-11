@@ -82,7 +82,7 @@ class PlaceWidgett extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(builder: (context) => ScrollableWidgetPage(
-                            widgets: commentWidgets,
+                              widgets: commentWidgets,
                             )), // Replace MapWidget with your actual map widget
                           );                        },
                         child: Text('Değerlendirmeler'),
@@ -114,7 +114,7 @@ class PlaceWidgett extends StatelessWidget {
                                   ),
                                 ],
                               ),
-                          Container(),
+                              Container(),
                             ]
                             )),
                           );
