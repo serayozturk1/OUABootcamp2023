@@ -37,6 +37,14 @@ class RoutesAndPlaces{
     'sarıyer sahili' : 4,
   };
 
+  static Map<String, String> placeCategories = {
+    'topkapı sarayı' : "kulturel",
+    'galata kulesi' : "kulturel",
+    'hasan usta dönercisi' : "yeme",
+    'bostancı sahili' : "doga",
+    'sarıyer sahili' : "doga",
+  };
+
   static List<Widget> places = [PlaceWidgett(
     name: 'Topkapı Sarayı',
     description: 'Topkapı Sarayı, Osmanlı İmparatorluğu\'nun eski başkenti İstanbul\'da yer alan etkileyici bir saray kompleksidir. Saray, muhteşem bahçeleri, sarayın tarihine tanıklık eden yapıları ve Osmanlı dönemine ait sanat eserleri ile ünlüdür.',
