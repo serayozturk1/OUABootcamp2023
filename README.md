@@ -1,5 +1,5 @@
 # Takım İsmi
-Takım Flutter 48
+Traveloopia
 # Takımımız
 - Seray Öztürk: Scrum master
 - Sena Kuşçuoğlu: Product Owner
@@ -14,7 +14,7 @@ Traveltopia
 - İstanbul'da yaşayanlar
 - Özellikle genç ve genç yetişkin olmakla birlikte tüm yaş grupları
 - Dışarıda vakit geçirmeyi ve yeni şeyler deneyimlemeyi sevenler
-# Sprint 1
+# Sprint1
 - Sprint içinde tamamlanması tahmin edilen puan: 100 Puan
 - Puan tamamlama mantığı: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verdik.
 - Daily Scrum: Daily Scrum toplantılarını elimizden geldiğince her gün gerçekleştirmeye çalıştık, çoğunluğunu whatsapp üzerindne gerçekleştirdik.
@@ -26,7 +26,20 @@ Traveltopia
 ![image](https://github.com/serayozturk1/OUABootcamp2023/assets/129687736/b15720e5-f09a-4467-8e3f-0ebac5745898)
 ![image](https://github.com/serayozturk1/OUABootcamp2023/assets/129687736/92860ea3-795a-4921-bd25-b39af28395fb)
 
-# Sprint Notları
+# Sprint1 Notları 
 - Sprint başında fikir geliştirmeye çalıştık ve bunun üzerine biraz fazla zaman harcadık ancak tüm ekibin içine sinen bir sonuca ulaştık. Sonrasında fikrimizi görselleştirdik ve taslak bir UI oluşturduk. UI tasarımını baz alarak bir giriş sayfası ve profil sayfası kodladık, aynı zamanda Firebase bağlamak için gerekli araştırmaları yaptık ve sistemi anlamaya çalıştık.
 - Sprint Review: Fikir geliştirdik ve fonksiyonlara tam karar verdik. Sonrasında kullanıcı temel sayfalarını oluşturduk, bazılarını da kodladık. Firebase hakkında bilgi edindik ve bağlamaya hazır durumdayız.
 - Sprint Retrospective: Fikir geliştirme sürecinde çok zaman kaybettik, bu yüzden toplantıları artık önceden detaylı olarak planlamaya karar verdik. Ayrıca herkesin biraz daha aktif olabileceğini ve daha fazla görev alması gerektiğini konuştuk.
+
+  # Sprint2
+  - Sprint içinde tamamlanması tahmin edilen puan: 120 Puan
+  - Tamamlanan puan: 96 Puan
+  - Daily Scrum: Daily Scrum toplantılarını ekipten iki kişi yurtdışında olduğu için düzenli şekilde gerçekleştiremedik.
+  - Sprint Board linkimiz: https://miro.com/app/board/uXjVM9x_Kiw=/?share_link_id=379542202282
+  # Sprint2 Notları
+  - Firebase bağlamaya uğraştık ancak aldığımız hataları gidermede yaşadığımız zorluk ve zaman kısıtlamasından dolayı verileri lokalden çekmeye karar verdik ve bunun üzerinde çalışmalar yaptık. Kullanıcıların kaydırarak rotalar arasında gezebileceği feed sayfasını, anasayfayı ve kullanıcıların mekanları aratabileceği bir sayfa kodladık. Ayrıca uygulamanın içeriğinde de ilerledik, örnek rotalar oluşturduk ve kullanıcılara önereceğimiz mekanları seçerek bilgilendirici metinler yazdık. 
+- Sprint Review: Ekip olarak aldığımız riskleri gözden geçirdik ve projede bazı değişiklikler yaptık. Kalan tüm sayfaları koda geçirdik ve test ettik.
+- Sprint Retrospective: Daha az risk almamız gerektiğini ve süre kısıtlamasına uygun kararlar vermemiz gerektiğini tartıştık. Ayrıca ekibin bir kısmı yurtdışında olduğundan gerektiği kadar aktif olamadığı için geri kalanların bu boşluğu doldurmak için daha fazla çalışması gerektiğine karar verdik.
+- Son Durum:
+  - ![image](https://github.com/serayozturk1/OUABootcamp2023/assets/129687736/fe4f5533-eb40-41fa-9add-1de4bbbec38a)
+  - Uygulamanın son halinin ekran videosu: https://photos.google.com/photo/AF1QipMP63nhkvNm_HeAwjOMdKUL814V9b9tNzeHJCzk

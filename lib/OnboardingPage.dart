@@ -24,7 +24,7 @@ class OnboardingPage1 extends StatelessWidget {
         OnboardingPageModel(
           title: 'Bu Gösteri Kaçmaz',
           description:
-              'En yakın arkadaşınla şehre yeni gelen tiyatro gösterisini kaçırma',
+          'En yakın arkadaşınla şehre yeni gelen tiyatro gösterisini kaçırma',
           imageUrl: 'https://i.ibb.co/420D7VP/building.png',
           bgColor: const Color(0xfffeae4f),
         ),
@@ -95,13 +95,13 @@ class _OnboardingPageState extends State<OnboardingPagePresenter> {
                                         .textTheme
                                         .headline6
                                         ?.copyWith(
-                                          fontWeight: FontWeight.bold,
-                                          color: item.textColor,
-                                        )),
+                                      fontWeight: FontWeight.bold,
+                                      color: item.textColor,
+                                    )),
                               ),
                               Container(
                                 constraints:
-                                    const BoxConstraints(maxWidth: 280),
+                                const BoxConstraints(maxWidth: 280),
                                 padding: const EdgeInsets.symmetric(
                                     horizontal: 24.0, vertical: 8.0),
                                 child: Text(item.description,
@@ -110,8 +110,8 @@ class _OnboardingPageState extends State<OnboardingPagePresenter> {
                                         .textTheme
                                         .bodyText2
                                         ?.copyWith(
-                                          color: item.textColor,
-                                        )),
+                                      color: item.textColor,
+                                    )),
                               )
                             ]))
                       ],
@@ -125,16 +125,16 @@ class _OnboardingPageState extends State<OnboardingPagePresenter> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: widget.pages
                     .map((item) => AnimatedContainer(
-                          duration: const Duration(milliseconds: 250),
-                          width: _currentPage == widget.pages.indexOf(item)
-                              ? 30
-                              : 8,
-                          height: 8,
-                          margin: const EdgeInsets.all(2.0),
-                          decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(10.0)),
-                        ))
+                  duration: const Duration(milliseconds: 250),
+                  width: _currentPage == widget.pages.indexOf(item)
+                      ? 30
+                      : 8,
+                  height: 8,
+                  margin: const EdgeInsets.all(2.0),
+                  decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(10.0)),
+                ))
                     .toList(),
               ),
 
@@ -209,8 +209,8 @@ class OnboardingPageModel {
 
   OnboardingPageModel(
       {required this.title,
-      required this.description,
-      required this.imageUrl,
-      this.bgColor = Colors.blue,
-      this.textColor = Colors.white});
+        required this.description,
+        required this.imageUrl,
+        this.bgColor = Colors.blue,
+        this.textColor = Colors.white});
 }

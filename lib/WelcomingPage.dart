@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'ScrollableWidgetPage.dart';
 import 'RoutesAndPlaces.dart';
-import 'PlaceWidget.dart';
-import 'ScrollablePlacePage.dart';
 
 class WelcomePage extends StatelessWidget {
-  final Color buttonColor = Colors.grey;
+  final Color buttonColor = Colors.blueGrey;
   final Color titleColor = Colors.white;
 
   @override
@@ -25,10 +23,7 @@ class WelcomePage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(12.0),
                         child: TextButton(
                           onPressed: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (context) => ScrollablePlacePage(name: "Yeme-içme Rotaları",widgets: RoutesAndPlaces.categoryRouteGetter("yeme")),
-                            ));
+                            // Add navigation logic here
                           },
                           style: TextButton.styleFrom(
                             backgroundColor: buttonColor,
@@ -38,11 +33,11 @@ class WelcomePage extends StatelessWidget {
                             children: [
                               Padding(
                                 padding: EdgeInsets.all(8.0), // Add spacing around the image
-                                child: Image.network('https://i.ibb.co/DCJxztY/vegetarian.png'),
+                                child: Image.network('https://i.ibb.co/PmYR0T8/forest.png'),
                               ),
                               SizedBox(height: 8.0),
                               Text(
-                                'Yemekli Rotalar',
+                                'Button 1',
                                 style: TextStyle(
                                   color: titleColor, // Use the titleColor variable for the text color
                                 ),
@@ -60,10 +55,8 @@ class WelcomePage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(12.0),
                         child: TextButton(
                           onPressed: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(builder: (context) => ScrollablePlacePage(name: "Doğayla İç İçe Rotalar",widgets: RoutesAndPlaces.categoryRouteGetter("doga")),
-                                ));                          },
+                            // Add navigation logic here
+                          },
                           style: TextButton.styleFrom(
                             backgroundColor: buttonColor,
                           ),
@@ -72,11 +65,11 @@ class WelcomePage extends StatelessWidget {
                             children: [
                               Padding(
                                 padding: EdgeInsets.all(8.0), // Add spacing around the image
-                                child: Image.network('https://i.ibb.co/wKyKGpm/landscape.png'),
+                                child: Image.network('https://i.ibb.co/PmYR0T8/forest.png'),
                               ),
                               SizedBox(height: 8.0),
                               Text(
-                                'Yeşil Rotalar',
+                                'Button 2',
                                 style: TextStyle(
                                   color: titleColor, // Use the titleColor variable for the text color
                                 ),
@@ -100,11 +93,8 @@ class WelcomePage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(12.0),
                         child: TextButton(
                           onPressed: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(builder: (context) => ScrollablePlacePage(name: "Kültürel Rotalar",widgets: RoutesAndPlaces.categoryRouteGetter("kulturel")),
-                                ));
-                            },
+                            // Add navigation logic here
+                          },
                           style: TextButton.styleFrom(
                             backgroundColor: buttonColor,
                           ),
@@ -113,11 +103,11 @@ class WelcomePage extends StatelessWidget {
                             children: [
                               Padding(
                                 padding: EdgeInsets.all(8.0), // Add spacing around the image
-                                child: Image.network('https://i.ibb.co/cC23TvP/history-1.png'),
+                                child: Image.network('https://i.ibb.co/PmYR0T8/forest.png'),
                               ),
                               SizedBox(height: 8.0),
                               Text(
-                                'Kültürel Rotalar',
+                                'Button 3',
                                 style: TextStyle(
                                   color: titleColor, // Use the titleColor variable for the text color
                                 ),
@@ -135,11 +125,8 @@ class WelcomePage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(12.0),
                         child: TextButton(
                           onPressed: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(builder: (context) => ScrollablePlacePage(name: "Romantik Rotalar",widgets: RoutesAndPlaces.categoryRouteGetter("romantik")),
-                                ));
-                            },
+                            // Add navigation logic here
+                          },
                           style: TextButton.styleFrom(
                             backgroundColor: buttonColor,
                           ),
@@ -148,11 +135,11 @@ class WelcomePage extends StatelessWidget {
                             children: [
                               Padding(
                                 padding: EdgeInsets.all(8.0), // Add spacing around the image
-                                child: Image.network('https://i.ibb.co/bzkcJS7/love-letter.png'),
+                                child: Image.network('https://i.ibb.co/PmYR0T8/forest.png'),
                               ),
                               SizedBox(height: 8.0),
                               Text(
-                                'Romantik Rotalar',
+                                'Button 4',
                                 style: TextStyle(
                                   color: titleColor, // Use the titleColor variable for the text color
                                 ),
