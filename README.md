@@ -9,7 +9,7 @@ Traveloopia
 # Ürün İsmi
 Traveltopia
 # Ürün Açıklaması
- Traveltopia, kullanıcıların gün içinde gittiği restorant, kafe, park, müze vb. yerleri "rota" olarak paylaşabilecekleri; diğer kullanıcıların rotalarını görüp yorumlayarak, beğenerek veya kaydederek etkileşimde bulunabilecekleri bir platform. Ayrıca Traveltopia, kullanıcıların kategorilere ayrılmış mekanları kendi ihtiyaçlarına göre filtrelemesini sağlayarak mekan önerisinde bulunuyor. Uygulamanın temel amacı kullanıcıları günü planlama derdinden kurtararak zaman kazandırmak ve özellikle pandemiden sonra artan bireyselleşme, eve kapanma gibi süreçlerin insanlar üzerindeki olumsuz etksini azaltmak için sosyalleşmeye ve dışarıda vakit geçirmeye teşvik etmek.
+Traveltopia, kullanıcıların gün içinde gittiği restorant, kafe, park, müze vb. yerleri "rota" olarak paylaşabilecekleri; diğer kullanıcıların rotalarını görüp yorumlayarak, beğenerek veya kaydederek etkileşimde bulunabilecekleri bir platform. Ayrıca Traveltopia, kullanıcıların kategorilere ayrılmış mekanları kendi ihtiyaçlarına göre filtrelemesini sağlayarak mekan önerisinde bulunuyor. Uygulamanın temel amacı kullanıcıları günü planlama derdinden kurtararak zaman kazandırmak ve özellikle pandemiden sonra artan bireyselleşme, eve kapanma gibi süreçlerin insanlar üzerindeki olumsuz etksini azaltmak için sosyalleşmeye ve dışarıda vakit geçirmeye teşvik etmek.
 # Hedef Kitle
 - İstanbul'da yaşayanlar
 - Özellikle genç ve genç yetişkin olmakla birlikte tüm yaş grupları
@@ -26,7 +26,7 @@ Traveltopia
 ![image](https://github.com/serayozturk1/OUABootcamp2023/assets/129687736/b15720e5-f09a-4467-8e3f-0ebac5745898)
 ![image](https://github.com/serayozturk1/OUABootcamp2023/assets/129687736/92860ea3-795a-4921-bd25-b39af28395fb)
 
-# Sprint1 Notları 
+# Sprint1 Notları
 - Sprint başında fikir geliştirmeye çalıştık ve bunun üzerine biraz fazla zaman harcadık ancak tüm ekibin içine sinen bir sonuca ulaştık. Sonrasında fikrimizi görselleştirdik ve taslak bir UI oluşturduk. UI tasarımını baz alarak bir giriş sayfası ve profil sayfası kodladık, aynı zamanda Firebase bağlamak için gerekli araştırmaları yaptık ve sistemi anlamaya çalıştık.
 - Sprint Review: Fikir geliştirdik ve fonksiyonlara tam karar verdik. Sonrasında kullanıcı temel sayfalarını oluşturduk, bazılarını da kodladık. Firebase hakkında bilgi edindik ve bağlamaya hazır durumdayız.
 - Sprint Retrospective: Fikir geliştirme sürecinde çok zaman kaybettik, bu yüzden toplantıları artık önceden detaylı olarak planlamaya karar verdik. Ayrıca herkesin biraz daha aktif olabileceğini ve daha fazla görev alması gerektiğini konuştuk.
@@ -37,7 +37,7 @@ Traveltopia
   - Daily Scrum: Daily Scrum toplantılarını ekipten iki kişi yurtdışında olduğu için düzenli şekilde gerçekleştiremedik.
   - Sprint Board linkimiz: https://miro.com/app/board/uXjVM9x_Kiw=/?share_link_id=379542202282
   # Sprint2 Notları
-  - Firebase bağlamaya uğraştık ancak aldığımız hataları gidermede yaşadığımız zorluk ve zaman kısıtlamasından dolayı verileri lokalden çekmeye karar verdik ve bunun üzerinde çalışmalar yaptık. Kullanıcıların kaydırarak rotalar arasında gezebileceği feed sayfasını, anasayfayı ve kullanıcıların mekanları aratabileceği bir sayfa kodladık. Ayrıca uygulamanın içeriğinde de ilerledik, örnek rotalar oluşturduk ve kullanıcılara önereceğimiz mekanları seçerek bilgilendirici metinler yazdık. 
+  - Firebase bağlamaya uğraştık ancak aldığımız hataları gidermede yaşadığımız zorluk ve zaman kısıtlamasından dolayı verileri lokalden çekmeye karar verdik ve bunun üzerinde çalışmalar yaptık. Kullanıcıların kaydırarak rotalar arasında gezebileceği feed sayfasını, anasayfayı ve kullanıcıların mekanları aratabileceği bir sayfa kodladık. Ayrıca uygulamanın içeriğinde de ilerledik, örnek rotalar oluşturduk ve kullanıcılara önereceğimiz mekanları seçerek bilgilendirici metinler yazdık.
 - Sprint Review: Ekip olarak aldığımız riskleri gözden geçirdik ve projede bazı değişiklikler yaptık. Kalan tüm sayfaları koda geçirdik ve test ettik.
 - Sprint Retrospective: Daha az risk almamız gerektiğini ve süre kısıtlamasına uygun kararlar vermemiz gerektiğini tartıştık. Ayrıca ekibin bir kısmı yurtdışında olduğundan gerektiği kadar aktif olamadığı için geri kalanların bu boşluğu doldurmak için daha fazla çalışması gerektiğine karar verdik.
 - Son Durum:
