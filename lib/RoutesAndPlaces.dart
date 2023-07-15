@@ -32,9 +32,9 @@ class RoutesAndPlaces{
   static Map<String, int> placeNames = {
     'topkapı sarayı' : 0,
     'galata kulesi' : 1,
-    'hasan usta dönercisi' : 2,
+    'nusret steakhouse' : 2,
     'bostancı sahili' : 3,
-    'sarıyer sahili' : 4,
+    'fenerbahce parki' : 4,
   };
 
   static List<Widget> places = [PlaceWidgett(
@@ -200,20 +200,17 @@ class RoutesAndPlaces{
     ),
     PlaceWidget(
       comments: [
-        CommentWidget(username: "Zülfikar K.", content: "Sahilde yürümek çok huzur verici!", timestamp: "18.06.2023", starRating: 4.9),
-        CommentWidget(username: "Seyfi Y.", content: "Deniz kokusu çok iyi geldi", timestamp: "22.06.2023", starRating: 2.5),
-        CommentWidget(username: "Ramiz C.", content: "Az kalsın denize düşüyordum aksdkadhaasd", timestamp: "18.06.2023", starRating: 0.0),
-        CommentWidget(username: "Zülfikar K.", content: "Sahilde yürümek çok huzur verici!", timestamp: "18.06.2023", starRating: 4.9),
-        CommentWidget(username: "Seyfi Y.", content: "Deniz kokusu çok iyi geldi", timestamp: "22.06.2023", starRating: 2.5),
-        CommentWidget(username: "Ramiz C.", content: "Az kalsın denize düşüyordum aksdkadhaasd", timestamp: "18.06.2023", starRating: 0.0),
+        CommentWidget(username: "Salih A.", content: "Sahilde yürümek çok huzur verici!", timestamp: "18.06.2023", starRating: 4.9),
+        CommentWidget(username: "Merve Y.", content: "Deniz kokusu çok iyi geldi", timestamp: "22.06.2023", starRating: 2.5),
+        CommentWidget(username: "Hanife G.", content: "Güzel bi yürüyüş ve yemek için doğru rota bu!", timestamp: "18.06.2023", starRating: 0.0),
       ],
-      name: 'Sahil Gezintisi',
-      description: 'İstanbul telaşından sıkılanlar için bir kaçış rotaı',
-      starRating: 4.3,
-      imagePath: "https://images.unsplash.com/photo-1446038202205-1c96430dbdab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1738&q=80",
+      name: 'Sabah Gezintisi',
+      description: 'Güne harika bir başlangıç...',
+      starRating: 4.7,
+      imagePath: "https://media.istockphoto.com/id/1215023069/tr/vekt%C3%B6r/k%C3%B6pek-d%C3%BCz-vekt%C3%B6r-ill%C3%BCstrasyon-ile-adam-sabah-gezintisi-yaz-%C5%9Fehir-e%C4%9Flencesi-parkta-e%C4%9Flence.jpg?s=170667a&w=0&k=20&c=uz4DVe5xJ9l_NRhnKetmSzZid3J79NXOcFi-HuZce0I=",
       scrollablePlacePage: ScrollablePlacePage(
-        name: "Sahil Gezintisi",
-        widgets: [places[3], places[4], places[3], places[4]],
+        name: "Sabah Gezintisi",
+        widgets: [places[3], places[1]],
       ),
     ),
   ];
