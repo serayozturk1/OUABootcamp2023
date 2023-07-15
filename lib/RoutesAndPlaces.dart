@@ -28,6 +28,34 @@ class RoutesAndPlaces{
     }
   }
 
+  static List<Widget> categoryRouteGetter(String category){
+    List<Widget> widgets = [];
+    if(category == "yeme"){
+      for(int route in RoutesAndPlaces.yemeRoutes){
+        widgets.add(RoutesAndPlaces.routes.elementAt(route));
+      }
+    }
+    else if(category == "kulturel"){
+      for(int route in RoutesAndPlaces.kulturelRoutes){
+        widgets.add(RoutesAndPlaces.routes.elementAt(route));
+      }
+    }
+    else if(category == "romantik"){
+      for(int route in RoutesAndPlaces.romantikRoutes){
+        widgets.add(RoutesAndPlaces.routes.elementAt(route));
+      }
+    }
+    else if(category == "doga"){
+      for(int route in RoutesAndPlaces.dogaRoutes){
+        widgets.add(RoutesAndPlaces.routes.elementAt(route));
+      }
+    }
+    else{
+      widgets.add(RoutesAndPlaces.routes.elementAt(0));
+    }
+    return widgets;
+  }
+
   //DATABASE--------------------------------------------------------------------
   static Map<String, int> placeNames = {
     'topkapı sarayı' : 0,
@@ -37,15 +65,26 @@ class RoutesAndPlaces{
     'sarıyer sahili' : 4,
   };
 
-  static Map<String, String> placeCategories = {
-    'topkapı sarayı' : "kulturel",
-    'galata kulesi' : "kulturel",
-    'hasan usta dönercisi' : "yeme",
-    'bostancı sahili' : "doga",
-    'sarıyer sahili' : "doga",
-  };
+  static List<int> yemeRoutes= [
+    0
+  ];
+
+  static List<int> kulturelRoutes= [
+    0
+  ];
+
+  static List<int> romantikRoutes= [
+    1
+  ];
+
+  static List<int> dogaRoutes= [
+    2
+  ];
 
   static List<Widget> places = [PlaceWidgett(
+
+    //TOPKAPI
+
     name: 'Topkapı Sarayı',
     description: 'Topkapı Sarayı, Osmanlı İmparatorluğu\'nun eski başkenti İstanbul\'da yer alan etkileyici bir saray kompleksidir. Saray, muhteşem bahçeleri, sarayın tarihine tanıklık eden yapıları ve Osmanlı dönemine ait sanat eserleri ile ünlüdür.',
     starRating: 5.0,
@@ -61,6 +100,9 @@ class RoutesAndPlaces{
       CommentWidget(username: "Ahmet Y.", content: "Topkapı Sarayı'nın bahçesinde yürümek çok huzur verici.", timestamp: "22.06.2023", starRating: 4.9),
     ],
   ),
+
+    //GALATA
+
     PlaceWidgett(
       name: 'Galata Kulesi',
       description: 'Galata Kulesi, İstanbul Boğazı\'nın karşı kıyısında, Galata semtinde yer alan tarihi bir kuledir. 14. yüzyılda inşa edilen kule, muhteşem panoramik manzarasıyla ünlüdür ve şehrin tarihini ve güzelliğini keşfetmek isteyen ziyaretçiler için harika bir noktadır.',
@@ -111,6 +153,16 @@ class RoutesAndPlaces{
     ),
   ];
 
+
+
+
+
+
+
+
+
+
+
   static List<PlaceWidget> routes = [
     PlaceWidget(
       comments: [
@@ -129,7 +181,8 @@ class RoutesAndPlaces{
       imagePath: "https://images.unsplash.com/photo-1647533459125-9ffc9b06ab0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1548&q=80",
       scrollablePlacePage: ScrollablePlacePage(
         name: "Tarih Kokan İstanbul Gezisi",
-        widgets: [places[0],
+        widgets: [
+          places[0],
           ArrowTextWidget(text: "Bu sarayı gezerken adeta Osmanlı hala yıkılmamış gibi hissedeceksiniz"),
           places[1],
           ArrowTextWidget(text: "Fotoğraf çekinmeyin unutmayın, ayrıca kimle çıkarsanız o kişiyle bi şeyler olabilir dikkat"),
@@ -138,6 +191,8 @@ class RoutesAndPlaces{
         ],
       ),
     ),
+
+
     PlaceWidget(
       comments: [
         CommentWidget(username: "Kamil K.", content: "Dönerci, romantik bir buluşmanın adresi!", timestamp: "18.06.2023", starRating: 4.9),
@@ -153,6 +208,8 @@ class RoutesAndPlaces{
         widgets: [places[2], places[1]],
       ),
     ),
+
+
     PlaceWidget(
       comments: [
         CommentWidget(username: "Zülfikar K.", content: "Sahilde yürümek çok huzur verici!", timestamp: "18.06.2023", starRating: 4.9),
@@ -171,6 +228,8 @@ class RoutesAndPlaces{
         widgets: [places[3], places[4], places[3], places[4]],
       ),
     ),
+
+
     PlaceWidget(
       comments: [
         CommentWidget(username: "Zeynep K.", content: "Tarihi ve kültürel değeri yüksek bir mekan, mutlaka görülmeli!", timestamp: "18.06.2023", starRating: 4.9),
@@ -197,6 +256,8 @@ class RoutesAndPlaces{
         ],
       ),
     ),
+
+
     PlaceWidget(
       comments: [
         CommentWidget(username: "Kamil K.", content: "Dönerci, romantik bir buluşmanın adresi!", timestamp: "18.06.2023", starRating: 4.9),
@@ -212,6 +273,8 @@ class RoutesAndPlaces{
         widgets: [places[2], places[1]],
       ),
     ),
+
+
     PlaceWidget(
       comments: [
         CommentWidget(username: "Zülfikar K.", content: "Sahilde yürümek çok huzur verici!", timestamp: "18.06.2023", starRating: 4.9),

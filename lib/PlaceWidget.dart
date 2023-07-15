@@ -10,6 +10,10 @@ class PlaceWidgett extends StatelessWidget {
   final String imagePath;
   final List<Widget> comments;
 
+  String get placeName {
+    return name;
+  }
+
   PlaceWidgett({
     required this.name,
     required this.description,

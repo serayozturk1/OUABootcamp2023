@@ -9,9 +9,7 @@ class ArrowTextWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<String> links = [
-      'https://img.uxwing.com/wp-content/themes/uxwing/download/arrow-direction/swirl-arrow-bottom-left-icon.png',
       'https://static.thenounproject.com/png/1566885-200.png',
-      'https://img.uxwing.com/wp-content/themes/uxwing/download/arrow-direction/swirl-arrow-bottom-icon.png',
     ];
 
     return Row(
