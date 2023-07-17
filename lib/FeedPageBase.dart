@@ -30,7 +30,7 @@ class GoogleBottomBarState extends State<GoogleBottomBar> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title:
-      const Text('TRAVELOPIA'),
+      const Text('Traveltopia'),
         backgroundColor: Colors.teal,),
       body: Center(
         child: _buildScreen(),

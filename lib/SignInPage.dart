@@ -232,7 +232,7 @@ class SignIn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'TRAVELOPIA',
+      title: 'Traveltopia',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
