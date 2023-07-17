@@ -31,7 +31,7 @@ class GoogleBottomBarState extends State<GoogleBottomBar> {
     return Scaffold(
       appBar: AppBar(title:
       const Text('Traveltopia'),
-        backgroundColor: Colors.teal,),
+        backgroundColor: Colors.teal,automaticallyImplyLeading: false,), // This line removes the back button
       body: Center(
         child: _buildScreen(),
       ),
