@@ -1,5 +1,5 @@
 # Takım İsmi
-Traveloopia
+Traveltopia
 # Takımımız
 - Seray Öztürk: Scrum master
 - Sena Kuşçuoğlu: Product Owner
@@ -51,4 +51,13 @@ Traveltopia, kullanıcıların gün içinde gittiği restorant, kafe, park, müz
   # Sprint3 Notları
   - Uygulamaya son halini verdik, UI ve UX tasarımına uygun hale getirdik. Veri çekmeyi zaman kısıtından dolayı başaramadığımız için veriler tek tek elle girildi.
   - Sprint Review: Daha fazla zamanımızı ayırabilseydik ve görev paylaşımını daha iyi planlasaydık ürünümüzün kalitesini arttırabileceğimizi konuştuk ve hatalarımızı tartıştık.
-  - Sprint Retrospective: Yapılması gerekenleri fazla basite indirgediğimizi fark ettik, ayrıca elimizde olmayan bazı nedenlerden dolayı(takım arkadaşalrımızın yurt dışına çıkması vb.) iletişim sorunları yaşadığımızı konuştuk.
+  - Sprint Retrospective: Yapılması gerekenleri fazla basite indirgediğimizi fark ettik, ayrıca elimizde olmayan bazı nedenlerden dolayı(takım arkadaşlarımızın yurt dışına çıkması vb.) iletişim sorunları yaşadığımızı konuştuk.
+  - Son Durum:
+  - ![WhatsApp Görsel 2023-07-17 saat 10 22 10](https://github.com/serayozturk1/OUABootcamp2023/assets/129687736/648a4dac-9019-489c-9f0c-33a73948a0a3)
+  - ![WhatsApp Görsel 2023-07-17 saat 10 22 12](https://github.com/serayozturk1/OUABootcamp2023/assets/129687736/1b94cfd2-ca37-4aa8-a3bd-bc855aa47181)
+  - ![WhatsApp Görsel 2023-07-17 saat 10 22 12](https://github.com/serayozturk1/OUABootcamp2023/assets/129687736/fe23d027-1c6d-44f7-b592-9b6396df23bb)
+  - ![WhatsApp Görsel 2023-07-17 saat 10 22 13](https://github.com/serayozturk1/OUABootcamp2023/assets/129687736/cd005c23-edb2-48c7-825a-a8460a4169c6)
+
+
+
+
