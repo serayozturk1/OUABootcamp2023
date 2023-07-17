@@ -43,3 +43,12 @@ Traveltopia, kullanıcıların gün içinde gittiği restorant, kafe, park, müz
 - Son Durum:
   - ![image](https://github.com/serayozturk1/OUABootcamp2023/assets/129687736/fe4f5533-eb40-41fa-9add-1de4bbbec38a)
   - Uygulamanın son halinin ekran videosu: https://photos.google.com/photo/AF1QipMP63nhkvNm_HeAwjOMdKUL814V9b9tNzeHJCzk
+  # Sprint3
+  - Sprint içinde tammalanması tahmin edilen puan: 120 Puan
+  - Tamamlanan Puan: 120
+  - Daily Scrum: Daily Scrum toplantılarını düzenli şekilde zoom ve whatsapp üzerindne gerçekleştirdik.
+  - Sprint Board linkimiz: https://miro.com/app/board/uXjVM9x_Kiw=/?share_link_id=379542202282
+  # Sprint3 Notları
+  - Uygulamaya son halini verdik, UI ve UX tasarımına uygun hale getirdik. Veri çekmeyi zaman kısıtından dolayı başaramadığımız için veriler tek tek elle girildi.
+  - Sprint Review: Daha fazla zamanımızı ayırabilseydik ve görev paylaşımını daha iyi planlasaydık ürünümüzün kalitesini arttırabilceğimizi konuştuk ve hatalarımızı tartıştık.
+  - Sprint Retrospective: Yapılması gerekenleri fazla basite indirgediğimizi fark ettik, ayrıca elimizde olmayan bazı nedenlerden dolayı(takım arkadaşalrımızın yurt dışına çıkması) iletişim sorunları yaşadığımızı konuştuk.
